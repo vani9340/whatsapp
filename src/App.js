@@ -11,8 +11,8 @@ function App() {
     <Nav/>
     <Integration/>
     <Hero/>
-    <Conversa/>
     <Feature/>
+    <Conversa/>
     </div>
   )
 }

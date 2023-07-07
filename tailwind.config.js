@@ -13,7 +13,8 @@ module.exports = {
         'grn':'#0B996F',
         'light_grn':'#D7FEC8',
         'grey':'#686868',
-        'light_black':'#1B1B1B'
+        'light_black':'#1B1B1B',
+        'yellow':'#FFE96E'
       },
     },
    

@@ -10,8 +10,8 @@ function Integration() {
      <h1 class='font-bold text-5xl py-3'>Simplify Business<h1 class='py-3'>Communication with</h1><h1 class='text-grn'>WhatsApp Integration</h1> </h1>
      </div>
         <div class='flex gap-4'>
-            <button class='bg-grn text-white py-5 px-16 rounded-2xl  text-2xl font-bold'>Try it for free</button>
-            <button class='rounded-2xl border-gray-800 border-2 py-5 px-16 text-2xl font-bold'>Book A Demo</button>
+            <button class='bg-grn text-white py-4 px-16 rounded-2xl  text-2xl font-bold'>Try it for free</button>
+            <button class='rounded-2xl border-gray-800 border-2 px-16 text-2xl font-bold'>Book A Demo</button>
         </div>
      </div>
      <div>
