@@ -11,16 +11,16 @@ function Hero() {
         <div class='relative'>
         <img src={img1} />
         <div class='bg-white max-w-xs absolute top-2/3 left-[20%] rounded-lg p-3'>
-            <h1 class='text-2xl text-grn font-bold'>Conversational support</h1>
-            <p>Strike up meaningful conversations with personalized chat tools, from Instagram & WhatsApp to live chat.</p>
+            <h1 class='text-2xl text-grn font-bold bg-white'>Conversational support</h1>
+            <p class='bg-white'>Strike up meaningful conversations with personalized chat tools, from Instagram & WhatsApp to live chat.</p>
         </div>
         </div>
         {/* 2nd div */}
         <div class='relative'>
         <img src={img2}/>
         <div class='bg-white max-w-xs absolute top-2/3 left-[20%] rounded-lg p-3'>
-            <h1 class='text-2xl text-grn font-bold'>Marketing Suport</h1>
-            <p>Enable interactive, personalized two-way messaging for customer support and engagement.
+            <h1 class='text-2xl text-grn font-bold bg-white'>Marketing Suport</h1>
+            <p class='bg-white'>Enable interactive, personalized two-way messaging for customer support and engagement.
             </p>
         </div> 
         </div>
@@ -28,8 +28,8 @@ function Hero() {
         <div class='relative'>
        <img src={img3}/>
        <div class='bg-white max-w-xs absolute top-2/3 left-[20%] rounded-lg p-3'>           
-        <h1 class='text-2xl text-grn font-bold'>Analytical Support</h1>
-            <p>Measure WhatsApp communication<br/>effectiveness with analytics, gaining insights into customer interactions & engagement metrics.</p>
+        <h1 class='text-2xl text-grn font-bold bg-white'>Analytical Support</h1>
+            <p class='bg-white'>Measure WhatsApp communication<br/>effectiveness with analytics, gaining insights into customer interactions & engagement metrics.</p>
         </div>
         </div>
         {/* end of div */}

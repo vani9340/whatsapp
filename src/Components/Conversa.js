@@ -3,7 +3,7 @@ import girl from './images/girl.svg'
 import curve from './images/curve.svg'
 function Conversa() {
     return (
-      <div class='flex w-5/6 mt-32 justify-between mx-auto gap-6'>
+      <div class='flex w-5/6 mt-32 justify-between mx-auto gap-6 bg-bg'>
         {/* 1st div */}
         <div class='w-2/5 flex flex-col justify-evenly'>
         <h1 class='text-5xl text-grn'>Everyone can grow with Conversa</h1>

@@ -1,7 +1,7 @@
 import img1 from './images/img1.svg'
 function Integration() {
   return (
-    <div class='flex justify-between w-5/6 mx-auto mt-16 '>
+    <div class='flex justify-between w-5/6 mx-auto mt-16  bg-default'>
      <div class='flex flex-col justify-center gap-2'>
      <div>
      <h1 class='capitalize text-grey'>EMPOWER . STREAMLINE . CONNECT</h1>

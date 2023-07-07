@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        default: '#F6F9FF' // Replace with your desired color
+      },
       fontFamily:{
         'DmSans': 'DM Sans, sans-serif'
       },
@@ -16,6 +19,7 @@ module.exports = {
         'light_black':'#1B1B1B',
         'yellow':'#FFE96E'
       },
+   
     },
    
   },
