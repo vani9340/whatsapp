@@ -15,13 +15,13 @@ function Form() {
             <h1 class='bg-grn text-white text-5xl font-medium'>Get in Touch</h1>
             <textarea placeholder="Write your message*" class='w-5/6 min-h-[200px] p-8 rounded-lg'/>
             {/* input field */}
-            <div class='bg-grn w-5/6 flex justify-between gap-20 '>
-                <input type='text' placeholder='Name*' class='w-1/2 p-3 rounded-lg'/>
-                <input type='email' placeholder='Email*' class='w-1/2 p-3 rounded-lg'/>
+            <div class='bg-grn w-5/6 md:flex max-md:flex max-md:flex-col md:justify-between md:gap-20 max-md:gap-8 '>
+                <input type='text' placeholder='Name*' class='md:w-1/2 p-3 rounded-lg'/>
+                <input type='email' placeholder='Email*' class='md:w-1/2 p-3 rounded-lg'/>
             </div>
-            <div class='bg-grn w-5/6 flex justify-between gap-20'>
-            <input type='text' placeholder='Company Name' class='w-1/2 p-3 rounded-lg'/>
-            <input type='text' placeholder='Contact Number*' class='w-1/2 p-3 rounded-lg'/>
+            <div class='bg-grn w-5/6 md:flex max-md:flex max-md:flex-col md:justify-between md:gap-20 max-md:gap-8 '>
+            <input type='text' placeholder='Company Name' class='md:w-1/2 p-3 rounded-lg'/>
+            <input type='text' placeholder='Contact Number*' class='md:w-1/2 p-3 rounded-lg'/>
             </div>
             <button class='px-14 py-4 w-5/6 rounded-2xl border border-white text-white'>Book A Demo</button>
         </div>

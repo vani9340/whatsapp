@@ -16,9 +16,9 @@ const Card = () => {
       {/* cards container div */}
       <div className='innerDiv1 w-5/6 mx-auto'>
       {/* 1st row */}
-      <div className="row mt-5 flex justify-between">
+      <div className="lg:row mt-5 flex max-lg:flex-col justify-between gap-12 max-lg:p-8">
       {/* 1st box */}
-      <div className="col-md-4 col-lg-4 col-sm-4 colum1 p-8 bg-pink rounded-xl flex flex-col items-center gap-8">
+      <div className="lg:w-1/3 p-8 bg-pink rounded-xl flex flex-col items-center gap-8">
        <img src={one} alt='first' class='bg-pink'/>
        <div class='text-center'>
         <p className='headingdiv bg-pink'>Increased Sales and <br/> Conversions</p>
@@ -27,7 +27,7 @@ const Card = () => {
       </div>
       
       {/* 2nd box */}
-      <div className="col-md-4 col-lg-4 col-sm-4 colum1 p-8 bg-green rounded-xl flex flex-col items-center gap-8">
+      <div className="lg:w-1/3 p-8 bg-green rounded-xl flex flex-col items-center gap-8">
     <img src={two} alt='first'/>
     <div class='text-center'>
     <p className='headingdiv bg-green'>Cost-Effective Communication</p>
@@ -36,7 +36,7 @@ const Card = () => {
      </div>
         
         {/* 3rd box */}
-        <div className="col-md-4 col-lg-4 col-sm-4 colum1 p-8 bg-blue rounded-xl flex flex-col items-center gap-8">
+        <div className="lg:w-1/3 p-8 bg-blue rounded-xl flex flex-col items-center gap-8">
     <img src={three} alt='first' class='bg-blue'/>
     <div class='text-center'>
   <p className='headingdiv bg-blue'>Competitive Advantage</p>
@@ -46,16 +46,16 @@ const Card = () => {
    {/* end of boxes */}
       </div>
       {/* 2nd row */}
-      <div className="row mt-5 flex justify-between">
+      <div className="lg:row lg:mt-5 flex max-lg:flex-col justify-between gap-12 max-lg:p-8">
       {/* 1st box */}
-      <div className="col-md-4 col-lg-4 col-sm-4 colum1 p-8 bg-light_blue rounded-xl flex flex-col items-center gap-8">
+      <div className="lg:w-1/3 p-8 bg-light_blue rounded-xl flex flex-col items-center gap-8">
     <img src={four} alt='first' class='bg-light_blue'/>
     <p className='headingdiv bg-light_blue'>Brand Authenticity</p>
     <p className='paradiv bg-light_blue'>Build trust and credibility with customers by using WhatsApp as a communication channel</p>
         </div>
 
         {/* 2nd box */}
-        <div className="col-md-4 col-lg-4 col-sm-4 colum1 p-8 bg-light_pink rounded-xl flex flex-col items-center gap-8">
+        <div className="lg:w-1/3 p-8 bg-light_pink rounded-xl flex flex-col items-center gap-8">
     <img src={five} alt='first' class='bg-light_pink'/>
     <p className='headingdiv bg-light_pink'>Instant Customer Support</p>
     <p className='paradiv bg-light_pink'>Provide prompt & personalized customer support through WhatsApp, ensuring quick resolution of queries and issues,
@@ -63,7 +63,7 @@ const Card = () => {
     </div>
 
     {/* 3rd box */}
-    <div className="col-md-4 col-lg-4 col-sm-4 colum1 p-8 bg-skin rounded-xl flex flex-col items-center gap-8">
+    <div className="lg:w-1/3 p-8 bg-skin rounded-xl flex flex-col items-center gap-8">
     <img src={six} alt='first' class='bg-skin'/>
     <p className='headingdiv bg-skin'>Real-time Notifications</p>
     <p className='paradiv bg-skin'>Send timely notifications and alerts to customers through WhatsApp, keeping them informed about order updates.</p>
