@@ -5,6 +5,7 @@ import Hero from './Components/Hero';
 import Conversa from './Components/Conversa';
 import Feature from './Components/features';
 import Card from './Components/Cards';
+import Form from './Components/Form';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Feature/>
     <Conversa/>
     <Card/>
+    <Form/>
     </div>
   )
 }

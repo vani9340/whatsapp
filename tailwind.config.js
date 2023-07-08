@@ -5,9 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
-        default: '#F6F9FF' // Replace with your desired color
-      },
       fontFamily:{
         'DmSans': 'DM Sans, sans-serif'
       },
@@ -17,7 +14,14 @@ module.exports = {
         'light_grn':'#D7FEC8',
         'grey':'#686868',
         'light_black':'#1B1B1B',
-        'yellow':'#FFE96E'
+        'yellow':'#FFE96E',
+        'pink':'#FDF3EA',
+        'green':'#E0F8F2',
+        'blue':'#EEECFF',
+        'light_blue':'#D9F2F7',
+        'light_pink':'#FAEDED',
+        'skin':'#F1F1F1',
+        'bg_grn':'#40826A'
       },
    
     },
