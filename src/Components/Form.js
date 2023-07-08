@@ -12,17 +12,18 @@ function Form() {
         {/* 2nd container */}
         <div class='bg-grn'>
         <div class='bg-grn'>
-            <h1>Get in Touch</h1>
+            <h1 class='bg-grn'>Get in Touch</h1>
             <textarea placeholder="Write your message*"/>
             {/* input field */}
-            <div>
-                <input/>
-                <input/>
+            <div class='bg-grn'>
+                <input type='text' placeholder='Name*'/>
+                <input type='email' placeholder='Email*'/>
             </div>
-            <div>
-                <input/>
-                <input/>
+            <div class='bg-grn'>
+            <input type='text' placeholder='Company Name'/>
+            <input type='text' placeholder='Contact Number*'/>
             </div>
+            <button class='px-14 py-4 w-5/6 rounded-2xl border border-white text-white'>Book A Demo</button>
         </div>
 
         </div>
