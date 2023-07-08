@@ -3,16 +3,20 @@ import girl from './images/girl.svg'
 import curve from './images/curve.svg'
 function Conversa() {
     return (
-      <div class='flex w-5/6 mt-32 justify-between mx-auto gap-6 bg-bg'>
+      <div class='flex max-lg:flex-col max-lg:justify-center w-5/6 mt-32 justify-between mx-auto gap-6 bg-bg'>
         {/* 1st div */}
         <div class='w-2/5 flex flex-col justify-evenly'>
         <h1 class='text-5xl text-grn'>Everyone can grow with Conversa</h1>
-<div>
+        <div>
         <ul class='text-2xl flex flex-col gap-4'>
+        <div class='max-lg:flex max-lg:justify-between max-lg:w-full'>
             <li class='flex gap-4'><img src={star}/><h1>Startups</h1></li>
             <li class='flex gap-4'><img src={star}/><h1>Agencies</h1></li> 
+            </div>
+            <div>
             <li class='flex gap-4'><img src={star}/><h1>Ecommerce</h1></li>
              <li class='flex gap-4'><img src={star}/><h1>Developers</h1></li>
+             </div>
         </ul>
         </div>
             <div>
