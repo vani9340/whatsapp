@@ -19,9 +19,7 @@ function Feature() {
         {/* rows box 1 */}
           <div className=" bg-white flex flex-col items-center gap-6">
             <img src={one} alt="first" class='bg-white'/>
-            <p style={{  fontSize: "19px", fontWeight: "700"}} class='bg-white'>
-              Automated Notifications
-            </p>
+            <p class='bg-white text-lg font-bold'>Automated Notifications </p>
             <p style={{margin: "auto",fontSize: "16px"}} class='bg-white w-3/4 text-center'> Set up automated notifications and alerts to keep your customers
               informed about important updates </p>
           </div>
@@ -38,7 +36,7 @@ function Feature() {
           {/* box3 */}
           <div className=" bg-white flex flex-col items-center gap-6">
             <img src={three} alt="first" class='bg-white'/>
-            <p style={{  fontSize: "19px", fontWeight: "700"}} class='bg-white'>
+            <p class='bg-white text-lg font-bold'>
             Secure and Reliable
             </p>
             <p style={{margin: "auto",fontSize: "16px"}} class='bg-white w-3/4 text-center'>
@@ -51,22 +49,18 @@ function Feature() {
         {/* box1 */}
         <div className=" bg-white flex flex-col items-center gap-6">
             <img src={four} alt="first" class='bg-white'/>
-            <p style={{  fontSize: "19px", fontWeight: "700"}} class='bg-white'>
+            <p class='bg-white text-lg font-bold'>
             Workflow Automation
             </p>
             <p
-              style={{
-                margin: "auto",
-                fontSize: "16px",
-                }} class='bg-white w-3/4 text-center'
-            >
+              style={{fontSize: "16px"}} class='bg-white w-3/4 text-center'>
                 Automates various workflows and processes within your WhatsApp integration, such as order confirmations.
             </p>
           </div>
           {/* box2 */}
           <div className=" bg-white flex flex-col items-center gap-6">
             <img src={five} alt="first" class='bg-white'/>
-            <p style={{  fontSize: "19px", fontWeight: "700"}} class='bg-white'>
+            <p class='bg-white text-lg font-bold'>
             Multi-language Support
             </p>
             <p
@@ -82,7 +76,7 @@ function Feature() {
           {/* box3 */}
           <div className=" bg-white flex flex-col items-center gap-6">
             <img src={six} alt="first" class='bg-white'/>
-            <p style={{fontSize: "19px", fontWeight: "700"}} class='bg-white text-center'>
+            <p  class='bg-white text-center text-lg font-bold'>
             Template Messages
             </p>
             <p

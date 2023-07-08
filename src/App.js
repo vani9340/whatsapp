@@ -4,6 +4,7 @@ import Integration from './Components/Integration'
 import Hero from './Components/Hero';
 import Conversa from './Components/Conversa';
 import Feature from './Components/features';
+import Card from './Components/Cards';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Hero/>
     <Feature/>
     <Conversa/>
+    <Card/>
     </div>
   )
 }
